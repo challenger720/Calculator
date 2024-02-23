@@ -1,6 +1,5 @@
 ﻿using System;
 using CalculatorLibrary;
-using System.Diagnostics;
 
 namespace CalculatorProgram
 {
