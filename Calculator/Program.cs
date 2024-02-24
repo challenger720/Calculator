@@ -48,6 +48,7 @@ namespace CalculatorProgram
                 Console.WriteLine("\ts - Subtract");
                 Console.WriteLine("\tm - Multiply");
                 Console.WriteLine("\td - Divide");
+                Console.WriteLine("\te - Hypotenuse");
                 Console.Write("Your option? ");
 
                 string op = Console.ReadLine();

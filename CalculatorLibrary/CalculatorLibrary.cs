@@ -50,6 +50,10 @@ namespace CalculatorLibrary
                     }
                     writer.WriteValue("Divide");
                     break;
+                case "e":
+                    result = Math.Sqrt((num1 * num1) + (num2 * num2));
+                    writer.WriteValue("Hypotenuse");
+                    break;
                 // Return text for an incorrect option entry.
                 default:
                     break;
